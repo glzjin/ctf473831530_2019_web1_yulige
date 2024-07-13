@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 ENV DEBIAN_FRONTEND noninteractive
 RUN   apt-get  update && \
       apt-get -y  install curl vim mysql-client mysql-server iputils-ping net-tools netcat-traditional && \
