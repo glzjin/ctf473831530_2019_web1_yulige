@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 ENV DEBIAN_FRONTEND noninteractive
 RUN   apt-get -y update && \ 
       apt-get -y  install iputils-ping net-tools curl netcat-traditional php-curl php7.0-curl php-http-request2 php-picofeed apache2 php-mysql php mysql-client vim libapache2-mod-php && \
